@@ -1,0 +1,13 @@
+[package]
+name = "alloc-blog"
+version = "0.1.0"
+authors = ["Ivan Veselov <veselov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "null_alloc"
+
+[[bin]]
+name = "counting_alloc"
